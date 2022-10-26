@@ -1,0 +1,253 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+  background: #3b3b3b;
+}
+
+.logo{
+  height: 100px;
+  margin: 40px 50px 0px 40px;
+  width: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.nav-bar{
+  margin-left: 150px;
+  margin-top: -55px
+}
+
+.links a{
+  margin-left: 60px;
+  font-size: 20px;
+  color: black;
+  background: limegreen;
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border: 2px solid red;
+}
+
+.links a:hover{
+  background: red;
+  color: white;
+  border: 2px solid limegreen;
+}
+
+.hero{
+  margin-left: 100px;
+  margin-top: 300px;
+  font-size: 30px;
+  color: white;
+  
+}
+
+.intro{
+  margin-bottom: 20px;
+}
+.name{
+  margin-bottom: 20px;
+}
+
+.intro2{
+  margin-top: 20px;
+}
+.name span{
+  color: red;
+}
+
+.intro span{
+  color: limegreen;
+}
+
+.intro2 span{
+  color: limegreen;
+}
+
+.resume-btn{
+  margin-top: 50px;
+   font-size: 20px;
+   color: black;
+   background: limegreen;
+   border-radius: 20px;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   border: 2px solid red;
+   cursor: pointer;
+}
+
+.resume-btn:hover{
+  background: red;
+  color: white;
+  border: 2px solid limegreen;
+}
+
+.hero img{
+  height: 600px;
+  width: 600px;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.social-links{
+  margin-top: 50px
+}
+.social-links a{
+  color: black;
+  background: limegreen;
+  border: 2px solid red;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+.social-links a:hover{
+  background: red;
+  color: white;
+  border: 2px solid limegreen;
+}
+
+.resume-info{
+  margin-top: 50px
+}
+
+.download-btn{
+  background: limegreen;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-size: 25px;
+  cursor: pointer;
+  border: 2px solid red;
+}
+
+.download-btn:hover{
+  color: white;
+  border: 2px solid limegreen;
+  background: red;
+}
+
+.about{
+  margin-left: 50px;
+  margin-top: 300px;
+  font-size: 30px;
+  color: white;
+}
+
+.about span{
+  color: red;
+}
+
+.about h1{
+  font-size: 75px
+}
+
+.about p{
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+.about-img{
+  height: 600px;
+  width: 400px;
+  border-radius: 30px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.contact-form{
+  width: 100px;
+  margin-top: 300px;
+  margin-left: 300px;
+  outline: none;
+}
+
+.firstname{
+  margin-bottom: 20px;
+  margin-left: 30px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+.lastname{
+  margin-bottom: 20px;
+  margin-left: 30px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+.email{
+  margin-bottom: 20px;
+  margin-left: 30px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+.phone{
+  margin-bottom: 20px;
+  margin-left: 30px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+.contact-btn{
+  background: limegreen;
+  margin-left: 60px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  cursor: pointer;
+  border: 2px solid red;
+  outline: none;
+}
+
+.contact-form h1{
+  color: white;
+  width: 200px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.contact-form span{
+  color: limegreen;
+}
+
+.contact-form input{
+  color: black;
+}
